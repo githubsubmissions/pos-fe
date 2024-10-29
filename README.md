@@ -2,48 +2,27 @@
 
 ## REACT version: 18.2.0
 
-##### create docker images
 
-set .env pos-fe:
+1. app/
+   Contains React components focused on UI and routing.
 
-- REACT_APP_USE_PROD_DOCKER_BACKEND=true
+2. application/
+   Encapsulates logic related to the use cases of the application. It’s the place for application services, which
+   orchestrate domain logic to achieve specific outcomes.
+    - services/: Application services that connect the domain layer and external world (e.g., call a domain method and
+      display data in the UI).
 
-set .env pos-api:
+3. domain/
+   Contains all the core business logic. The domain layer is agnostic to the UI and infrastructure.
+    - exceptions/: Custom exceptions specific to business logic.
+    - services/: Services that encapsulate domain-related operations (e.g., OrderService).
 
-- ##LIVE DOCKER ENABLE
-- change env to live
+4. infrastructure/
+   This layer manages the interaction with external systems and implements interfaces defined in the domain.
+    - persistence/: Manages how data is saved (e.g., in local storage, remote database, etc.).
+    - mappers/: Transforms domain models into persistence models and vice versa.
 
-docker-compose build react-app spring-app --no-cache --parallel
+5. test-utils/
+   Provides utilities or mock services for testing purposes.
 
-push react and spring apps
-
-##### run on new pc
-
-copy pos folders
-
-- pos-fe (this folder is empty)
-- pos-api (this folder is empty)
-- pos-init-db
-- docker-compose.yaml
-
-comment out build lines
-run docker-compose up
-
-## NODE version: 17.4.0
-
-#### NVM
-
-##### if using nvm, check installed node version:
-
-nvm list
-
-##### install:
-
-nvm install 18.x.x
-
-##### switch with:
-
-nvm use 18.x.x
-
-### SWAGGER:
-/swagger-ui/
+container - IoC, dependencies

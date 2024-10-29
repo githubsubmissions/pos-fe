@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Item 1",
+    "price": 10.99,
+    "minStockLevel": 5,
+    "imagePath": "/images/item1.jpg",
+    "status": "active",
+    "quantity": 20,
+    "itemCategoryDo": {
+      "id": 1,
+      "name": "Category 1",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T10:00:00Z",
+    "updatedAt": "2022-05-06T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Item 2",
+    "price": 12.99,
+    "minStockLevel": 7,
+    "imagePath": "/images/item2.jpg",
+    "status": "inactive",
+    "quantity": 30,
+    "itemCategoryDo": {
+      "id": 2,
+      "name": "Category 2",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T11:00:00Z",
+    "updatedAt": "2022-05-06T11:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Item 3",
+    "price": 15.99,
+    "minStockLevel": 10,
+    "imagePath": "/images/item3.jpg",
+    "status": "active",
+    "quantity": 40,
+    "itemCategoryDo": {
+      "id": 1,
+      "name": "Category 1",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T12:00:00Z",
+    "updatedAt": "2022-05-06T12:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Item 4",
+    "price": 18.99,
+    "minStockLevel": 8,
+    "imagePath": "/images/item4.jpg",
+    "status": "inactive",
+    "quantity": 25,
+    "itemCategoryDo": {
+      "id": 3,
+      "name": "Category 3",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T13:00:00Z",
+    "updatedAt": "2022-05-06T13:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Item 5",
+    "price": 22.99,
+    "minStockLevel": 6,
+    "imagePath": "/images/item5.jpg",
+    "status": "active",
+    "quantity": 50,
+    "itemCategoryDo": {
+      "id": 2,
+      "name": "Category 2",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T14:00:00Z",
+    "updatedAt": "2022-05-06T14:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Item 6",
+    "price": 30.99,
+    "minStockLevel": 15,
+    "imagePath": "/images/item6.jpg",
+    "status": "inactive",
+    "quantity": 35,
+    "itemCategoryDo": {
+      "id": 1,
+      "name": "Category 1",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T15:00:00Z",
+    "updatedAt": "2022-05-06T14:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Blue T-Shirt",
+    "price": 29.99,
+    "minStockLevel": 10,
+    "imagePath": "/images/blue-tshirt.jpg",
+    "status": "In Stock",
+    "quantity": 50,
+    "itemCategoryDo": {
+      "id": 3,
+      "name": "Clothing",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T10:30:00Z",
+    "updatedAt": "2022-05-06T10:30:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Black Leather Shoes",
+    "price": 79.99,
+    "minStockLevel": 5,
+    "imagePath": "/images/black-shoes.jpg",
+    "status": "In Stock",
+    "quantity": 20,
+    "itemCategoryDo": {
+      "id": 4,
+      "name": "Footwear",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T11:30:00Z",
+    "updatedAt": "2022-05-06T11:30:00Z"
+  },
+  {
+    "id": 17,
+    "name": "Red Sweatshirt",
+    "price": 39.99,
+    "minStockLevel": 15,
+    "imagePath": "/images/red-sweatshirt.jpg",
+    "status": "In Stock",
+    "quantity": 25,
+    "itemCategoryDo": {
+      "id": 3,
+      "name": "Clothing",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T12:30:00Z",
+    "updatedAt": "2022-05-06T12:30:00Z"
+  },
+  {
+    "id": 18,
+    "name": "Black Sunglasses",
+    "price": 19.99,
+    "minStockLevel": 20,
+    "imagePath": "/images/black-sunglasses.jpg",
+    "status": "In Stock",
+    "quantity": 30,
+    "itemCategoryDo": {
+      "id": 5,
+      "name": "Accessories",
+      "status": "active",
+      "createdAt": "2022-05-06T14:00:00Z",
+      "updatedAt": "2022-05-06T14:00:00Z"
+    },
+    "createdAt": "2022-05-06T13:30:00Z",
+    "updatedAt": "2022-05-06T13:30:00Z"
+  }
+]

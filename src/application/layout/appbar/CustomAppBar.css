@@ -1,0 +1,22 @@
+@keyframes scrollMessage {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling-message {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 60%; /* Ensure the message spans the full width */
+    text-align: center; /* Center the text */
+}
+
+.scrolling-message span {
+    display: inline-block;
+    animation: scrollMessage 23s linear infinite;
+}
